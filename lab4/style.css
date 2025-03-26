@@ -1,68 +1,53 @@
 /* Загальні стилі */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+  background: url('https://e3.365dm.com/23/08/1600x900/skynews-tropical-rainforest_6259968.jpg?20230823123136') center/cover fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Georgia', serif;
+  color: white;
 }
 
+/* Стилі для навбару */
 .navbar {
-    background-color: #343a40;
+  background-color: rgba(34, 139, 34, 0.9); /* Прозорий темно-зелений фон */
 }
 
-.navbar-nav .nav-link {
-    color: #ffffff !important;
+/* Контейнер */
+.container {
+  margin-top: 100px;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #17a2b8 !important;
-}
-
-/* Секція карток */
+/* Стилі для карток */
 .card {
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8); /* Легко прозорий білий фон */
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 100, 0, 0.3); /* Тінь з темно-зеленим відтінком */
+  transition: transform 0.3s ease-in-out; /* Плавний ефект при наведенні */
 }
 
-.card-body {
-    text-align: center;
+/* При наведенні на картку */
+.card:hover {
+  transform: scale(1.05); /* Легке збільшення картки */
 }
 
-.card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
+/* Стилі для зображень в картках */
+.card img {
+  border-radius: 15px;
+  width: 100%; /* Зображення має займати всю ширину картки */
+  height: auto;
 }
 
-.card-text {
-    font-size: 1rem;
-    color: #6c757d;
+/* Стилі для кнопок */
+.btn {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px; /* Заокруглені кути кнопок */
 }
 
-.card-img-top {
-    border-radius: 10px;
-    height: 200px;
-    object-fit: cover;
-}
-
-/* Кнопки */
-.btn-success {
-    background-color: #28a745;
-    color: white;
-}
-
-.btn-success:hover {
-    background-color: #218838;
-}
-
-/* Кольорові кнопки */
-.btn-primary {
-    background-color: #007bff;
-}
-
-.btn-warning {
-    background-color: #ffc107;
-}
-
-.btn-danger {
-    background-color: #dc3545;
+/* При наведенні на кнопку */
+.btn:hover {
+  transform: scale(1.1); /* Легке збільшення кнопки */
+  background-color: #28a745; /* Зміна кольору кнопки на зелений */
 }
