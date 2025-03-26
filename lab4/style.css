@@ -1,6 +1,6 @@
-/* Загальні стилі */
+
 body {
-  background: url('https://e3.365dm.com/23/08/1600x900/skynews-tropical-rainforest_6259968.jpg?20230823123136') center/cover fixed;
+  background: url('https://c4.wallpaperflare.com/wallpaper/72/518/572/minecraft-planet-cube-cubes-world-minecraft-game-illustration-wallpaper-preview.jpg') center/cover fixed;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -9,45 +9,38 @@ body {
   color: white;
 }
 
-/* Стилі для навбару */
 .navbar {
-  background-color: rgba(34, 139, 34, 0.9); /* Прозорий темно-зелений фон */
+  background-color: rgba(34, 139, 34, 0.9);
 }
 
-/* Контейнер */
 .container {
   margin-top: 100px;
 }
 
-/* Стилі для карток */
 .card {
-  background-color: rgba(255, 255, 255, 0.8); /* Легко прозорий білий фон */
+  background-color: rgba(255, 255, 255, 0.8); 
   color: black;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 100, 0, 0.3); /* Тінь з темно-зеленим відтінком */
-  transition: transform 0.3s ease-in-out; /* Плавний ефект при наведенні */
+  box-shadow: 0 4px 8px rgba(0, 100, 0, 0.3);
+  transition: transform 0.3s ease-in-out; 
 }
 
-/* При наведенні на картку */
 .card:hover {
-  transform: scale(1.05); /* Легке збільшення картки */
+  transform: scale(1.05); 
 }
 
-/* Стилі для зображень в картках */
 .card img {
   border-radius: 15px;
-  width: 100%; /* Зображення має займати всю ширину картки */
+  width: 100%;
   height: auto;
 }
 
-/* Стилі для кнопок */
 .btn {
   transition: all 0.3s ease-in-out;
-  border-radius: 10px; /* Заокруглені кути кнопок */
+  border-radius: 10px; 
 }
 
-/* При наведенні на кнопку */
 .btn:hover {
-  transform: scale(1.1); /* Легке збільшення кнопки */
-  background-color: #28a745; /* Зміна кольору кнопки на зелений */
+  transform: scale(1.1); 
+  background-color: #28a745; 
 }
